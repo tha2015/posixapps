@@ -1,3 +1,3 @@
 #!/usr/bin/env sh
-
-cc src/main/c/main.c
+mkdir target
+cc src/main/c/main.c -o target/hello
