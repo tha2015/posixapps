@@ -1,3 +1,2 @@
 #!/usr/bin/env sh
-mkdir target
-cc src/main/c/main.c -o target/hello
+c99 main.c -o hello
